@@ -6,7 +6,7 @@ var port = process.env.PORT || 3001
 var app = express()
 var fs = require('fs')
 var env = process.env.NODE_ENV || 'development'
-var dbUrl = 'mongodb://imooc_movie_runner:F**k9001$@127.0.0.1:27017/imooc-movie'
+var dbUrl = 'mongodb://imooc_movie_runner:f**k9001$@127.0.0.1:27017/imooc-movie'
 
 if (env === 'development') {
   dbUrl = 'mongodb://localhost/imooc-movie'
